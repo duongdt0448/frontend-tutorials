@@ -9,6 +9,7 @@ header {
     top: 0;
     transition: all .3s ease-in-out;
     width: 100%;
+    z-index: 999;
 }
 
 .header-logo img {
@@ -36,7 +37,7 @@ header {
     opacity: 0;
     position: absolute;
     top: -100%;
-    transition: width 0.3s ease;
+    transition: width 5s ease;
     width: 60%;
 }
 
@@ -86,19 +87,16 @@ header {
     display: none;
 }
 
-.header-menu-dropdown:hover {
-    height: 100%;
-}
-
 @media (max-width: 768px) {
     .container {
         width: 100%;
     }
-      
+
     header {
         padding: 0 ;
-        margin: 0 10px;
+        margin: 0 ;
         width: 100%;
+        position: relative;
     }
     
     .header-logo {

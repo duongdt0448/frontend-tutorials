@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../../assets/css/base.css">
     <link rel="stylesheet" href="../../assets/css/header.css">
     <link rel="stylesheet" href="../../assets/css/footer.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
 </head>
 <body>
     <header>
@@ -47,7 +49,7 @@
 
       <nav class="header-menu-dropdown" aria-hidden="true">
         <ul class="nav-menu">
-          <li class="active"><a href="https://sun-asterisk.vn/" >Trang chủ</a></li>
+          <li class="active"><a href="#" >Trang chủ</a></li>
           <li><a href="#">Về chúng tôi</a></li>
           <li><a href="#">Dự án</a></li>
           <li><a href="#">Cơ hội nghề nghiệp</a></li>
@@ -68,8 +70,360 @@
       </div>
     </header>
 
+    <div class="video">
+        <video class="video-desktop" src="../../assets/images/mv-pc.mp4" type="video/mp4" autoplay muted loop></video>
+        <video class="video-mobile" src="../../assets/images/mv-sp.mp4" type="video/mp4" autoplay muted loop></video>
+    </div>
+
     <main>
-        <h1>...</h1>  
+        <div class="business">
+            <h2>Lĩnh vực kinh doanh</h2>
+            <div class="business-intro">
+                <div class="business-intro__description">
+                    Là một Digital Creative Studio, Sun* luôn đề cao tinh thần làm chủ sản phẩm, tư duy sáng tạo trong mỗi dự án để mang đến những trải nghiệm "<strong>Awesome</strong>" nhất cho end-user.<br>
+                    <p></p>
+                    Với hai dòng dịch vụ là "<strong>Creative &amp; Engineering</strong>" và "<strong>Talent Platform</strong>", Sun* đã và đang từng bước cùng công nghệ tạo ra những giá trị tốt đẹp cho xã hội.
+                </div>
+                <div class="business-intro__image"> 
+                    <img src="../../assets/images/intro-business.png" alt="Sun* Inc. Tuyển Dụng">
+                </div>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="service-item service-item-left">
+                <div class="service-subtitle service-subtitle-left">Digital Creative Studio</div>
+                <div class="service-title">Creative <br> & Engineering</div>
+                <div class="service-description">Đội ngũ nhân lực dồi dào chuyên về công nghệ, thiết kế và kinh doanh.</div>
+                <a class="service-button service-button-left" href="#">
+                    Tìm hiểu thêm
+                    <div class="button-icon">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="service-item service-item-right">
+                <div class="service-subtitle service-subtitle-right">Digital Creative Studio</div>
+                <div class="service-title service-title-right">Talent <br> Platform</div>
+                <div class="service-description">Các giải pháp nguồn nhân lực hỗ trợ tăng trưởng kinh doanh bền vững.</div>
+                <a class="service-button service-button-right" href="#">
+                    Tìm hiểu thêm
+                    <div class="button-icon">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-wrapper">
+                <div class="project-left">
+                    <div class="project-header">
+                        Dự án của chúng tôi
+                    </div>
+                    <div>
+                        <div class="project-counter-item">
+                            <div class="project-counter-number" data-from="0" data-to="200">200</div>
+                            <div class="project-counter-plus">
+                                <div class="project-counter-label">++</div>
+                                <div class="project-counter-title">Đối tác</div>
+                            </div>
+                        </div>
+    
+                        <div class="project-counter-item">
+                            <div class="project-counter-number" data-from="0" data-to="300">300</div>
+                            <div class="project-counter-plus">
+                                <div class="project-counter-label">++</div>
+                                <div class="project-counter-title">Dịch vụ được hỗ trợ</div>
+                            </div>
+                        </div>
+    
+                        <a class="service-button service-button-right" href="#">
+                            Xem tất cả dự án
+                            <div class="button-icon">
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="project-slider">
+                    <input type="radio" name="slider" id="project-item1" checked>
+                    <input type="radio" name="slider" id="project-item2">
+                    <input type="radio" name="slider" id="project-item3">
+
+                    <div class="project-slides">
+                        <div class="project-item">
+                            <img src="../../assets/images/zenkigen_01.png">
+                            <div class="project-slide-content">
+                                <div class="project-slide-company">Công ty TNHH Genkigen</div>
+                                <div class="project-slide-title">Dự án Harutaka</div>
+                                <div class="project-slide-desc">“HARUTAKA” cho phép các công ty và người tìm việc có thể phỏng vấn trên web hoặc trong video bất kể thời gian hay địa điểm nào.</div>
+                                <div class="project-slide-btn-content">
+                                    <div class="project-slide-btn-title">Xem chi tiết</div>
+                                    <div class="project-slide-btn-icon">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <img src="../../assets/images/Kurashicom.png">
+                            <div class="project-slide-content">
+                                <div class="project-slide-company">Kurashicom Inc</div>
+                                <div class="project-slide-title">Dự án Kurashicom</div>
+                                <div class="project-slide-desc">Phát triển App giúp thực hiện hóa phong cách sống theo ý muốn</div>
+                                <div class="project-slide-btn-content">
+                                    <div class="project-slide-btn-title">Xem chi tiết</div>
+                                    <div class="project-slide-btn-icon">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <img src="../../assets/images/Untitled-1-3.png">
+                            <div class="project-slide-content">
+                                <div class="project-slide-company">Công ty TNHH SSK</div>
+                                <div class="project-slide-title">Dự án SSK</div>
+                                <div class="project-slide-desc">Thử thách để tiếp thêm năng lượng cho mọi người và xã hội với sports data.</div>
+    
+                                <div class="project-slide-btn-content">
+                                    <div class="project-slide-btn-title">Xem chi tiết</div>
+                                    <div class="project-slide-btn-icon">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-navigation">
+                        <label for="project-item3" class="project-slide-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+                        <label for="project-item2" class="project-slide-next"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+                        <label for="project-item1" class="project-slide-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+                        <label for="project-item3" class="project-slide-next"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+                        <label for="project-item2" class="project-slide-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+                        <label for="project-item1" class="project-slide-next"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="career">
+            <div class="career-intro-content">
+                <div class="career-intro-sub-title">Sun Asterisk</div>
+                <div class="career-intro-title">Cơ hội nghề nghiệp</div>
+                <div class="career-intro-description">Join us &amp; MAKE AWESOME THINGS THAT MATTER.</div>
+                <div class="career-intro-sub-description">Sun* luôn tìm kiếm những con người đam mê thử thách để tạo nên những giá trị "Awesome".<br>
+                    <p></p> Cùng trở thành một phần của Sun* ngay hôm nay.
+                </div>
+                <div class="career-intro-btn"> 
+                    <a class="career-intro-btn-item service-button service-button-left" href="#">
+                        Gia nhập đội ngũ Sun* 
+                        <div class="button-icon">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="working-environment">
+            <h2 class="working-environment-title">Môi trường làm việc</h2>
+            <div class="working-environment-body">
+              <div class="working-environment-content">
+                <div class="working-environment-content-item">
+                    <label class="working-environment-content-icon">
+                        <i class="fa fa-check"></i>
+                    </label>
+                    <div class="working-environment-content-description">#ActiveChallenge: Chủ động tạo ra công việc thử thách liên tục cho bản thân.</div>
+                </div>
+                <div class="working-environment-content-item">
+                    <label class="working-environment-content-icon">
+                        <i class="fa fa-check"></i>
+                    </label>
+                    <div class="working-environment-content-description">#ActiveLearn: Học tập trong một tổ chức có đầy đủ các thành tố: môi trường học tập, cơ hội học tập, năng lực học tập.</div>
+                </div>
+                <div class="working-environment-content-item">
+                    <label class="working-environment-content-icon">
+                        <i class="fa fa-check"></i>
+                    </label>
+                    <div class="working-environment-content-description">#ActiveJoy: Sống trong môi trường văn hóa hướng tới giá trị nhân văn, và hạnh phúc cho mọi người.</div>
+                </div>
+            </div>
+    
+            <div class="working-environment-banner">
+                <img src="../../assets/images/human-centered.png" alt="banner">
+                <a class="working-environment-btn service-button service-button-right">
+                    Xem chi tiết
+                    <div class="button-icon">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+              </div>
+            </div>
+        </div> 
+        
+        <div class="culture-event">
+            <div class="culture-event-title-wrapper">
+                <div class="culture-event-title">Văn hóa - Sự kiện</div>
+                <input type="radio" name="culture-slider" id="culture-item1" checked>
+                <input type="radio" name="culture-slider" id="culture-item2" >
+                <input type="radio" name="culture-slider" id="culture-item3" >
+                <input type="radio" name="culture-slider" id="culture-item4" >
+                <div class="culture-navigation">
+                    <label for="culture-item4" class="culture-slide-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+                    <label for="culture-item2" class="culture-slide-next"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+                    <label for="culture-item1" class="culture-slide-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+                    <label for="culture-item3" class="culture-slide-next"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+                    <label for="culture-item2" class="culture-slide-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+                    <label for="culture-item4" class="culture-slide-next"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+                    <label for="culture-item3" class="culture-slide-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+                    <label for="culture-item1" class="culture-slide-next"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+                </div>
+            </div>
+
+            <div class="culture-slider">
+                <div class="culture-slides">
+                    <div class="culture-item">
+                        <div class="culture-image">
+                            <img src="../../assets/images/0975f17b-89f3-4eab-a4fd-33b55df9d80d.webp">
+                        </div>
+                        <div class="culture-content">
+                            <div class="culture-item-title">
+                            <a>
+                                Dự án Insurance SaaS Development Support: Golang, VueJS trở thành “chất xúc tác” để Sunner vượt giới hạn 
+                            </a>
+                            </div>
+                        </div>
+        
+                        <div class="culture-item-description">
+                            “Đề bài càng hóc búa, càng hấp dẫn để xông pha”, “Ngôn ngữ mới không phải rào cản, mà chính là cơ hội để chứng minh năng lực” là những câu cửa miệng các thành viên dự án Insurance SaaS liên tục nhấn mạnh khi được hỏi về cách chinh phục bài toán khó từ khách hàng và duy trì điểm CSS trên 90 suốt ba năm vận hành.
+                        </div>
+                        <div class="culture-item-detail">
+                            <a>
+                              Xem chi tiết
+                            </a>
+                            <span class="button-icon">
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="culture-item">
+                        <div class="culture-image">
+                            <img src="../../assets/images/7d926be4-e8c6-4b1b-b4a8-e0ccf52f362b.webp">
+                        </div>
+                        <div class="culture-content">
+                            <div class="culture-item-title">
+                            <a>
+                                6 tháng cùng chiến lược “Toàn Sun* học tập và thực hành liên tục", chúng ta đã có những kết quả như thế nào?  
+                            </a>
+                            </div>
+                        </div>
+        
+                        <div class="culture-item-description">
+                            Để nuôi dưỡng và phát triển mạnh mẽ văn hóa học tập, từ đó trở thành "Tổ chức học tập" (Learning Organization), 6 tháng qua, với chiến lược “Toàn Sun* học tập và thực hành liên tục", chúng ta đã có những kết quả học tập tích cực. Những kết quả này cho thấy hiệu quả của tính bài bản trong công tác triển khai, cùng tư duy bứt phá, phát triển bản thân không ngừng của người Sun*, đã và đang góp phần giúp chúng ta đi nhanh và xa hơn với các mục tiêu của mình.
+                        </div>
+                        <div class="culture-item-detail">
+                            <a>
+                              Xem chi tiết
+                            </a>
+                            <span class="button-icon">
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="culture-item">
+                        <div class="culture-image">
+                            <img src="../../assets/images/f8e7e84c-29f1-4cbd-b2a3-263d42578a10.webp">
+                        </div>
+                        <div class="culture-content">
+                            <div class="culture-item-title">
+                            <a>
+                                Dự án Insurance SaaS Development Support: Golang, VueJS trở thành “chất xúc tác” để Sunner vượt giới hạn 
+                            </a>
+                            </div>
+                        </div>
+        
+                        <div class="culture-item-description">
+                            “Đề bài càng hóc búa, càng hấp dẫn để xông pha”, “Ngôn ngữ mới không phải rào cản, mà chính là cơ hội để chứng minh năng lực” là những câu cửa miệng các thành viên dự án Insurance SaaS liên tục nhấn mạnh khi được hỏi về cách chinh phục bài toán khó từ khách hàng và duy trì điểm CSS trên 90 suốt ba năm vận hành.
+                        </div>
+                        <div class="culture-item-detail">
+                            <a>
+                              Xem chi tiết
+                            </a>
+                            <span class="button-icon">
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="culture-item">
+                        <div class="culture-image">
+                            <img src="../../assets/images/b8eab75a-a36f-4a25-82e6-8942a6ad62a3.webp">
+                        </div>
+                        <div class="culture-content">
+                            <div class="culture-item-title">
+                            <a>
+                                Dự án Insurance SaaS Development Support: Golang, VueJS trở thành “chất xúc tác” để Sunner vượt giới hạn 
+                            </a>
+                            </div>
+                        </div>
+        
+                        <div class="culture-item-description">
+                            “Đề bài càng hóc búa, càng hấp dẫn để xông pha”, “Ngôn ngữ mới không phải rào cản, mà chính là cơ hội để chứng minh năng lực” là những câu cửa miệng các thành viên dự án Insurance SaaS liên tục nhấn mạnh khi được hỏi về cách chinh phục bài toán khó từ khách hàng và duy trì điểm CSS trên 90 suốt ba năm vận hành.
+                        </div>
+                        <div class="culture-item-detail">
+                            <a>
+                              Xem chi tiết
+                            </a>
+                            <span class="button-icon">
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="culture-item">
+                        <div class="culture-image">
+                            <img src="../../assets/images/7c2f69b3-631b-4b2a-aabc-4eddf1bf8359.webp">
+                            <div class="culture-event__label">
+                                <span>
+                                  Tin nóng
+                                  <span></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="culture-content">
+                            <div class="culture-item-title">
+                            <a>
+                                Nóng: Chính thức mở đăng ký TechUp #2 - Ứng dụng AI để cải tiến hiệu suất lập trình và tạo ra sản phẩm đột phá
+                            </a>
+                            </div>
+                        </div>
+        
+                        <div class="culture-item-description">
+                            Sau thành công vang dội của số đầu tiên vào năm 2023, TechUp - sự kiện công nghệ “hosted by Sun*” sẽ chính thức quay trở lại cùng phiên bản nâng cấp hơn vào tháng 6 này. Với mong muốn mang lại những giá trị ''awesome'', đồng hành cùng giới lập trình viên Việt phát triển bền vững giữa bối cảnh kỷ nguyên AI đang làm thay đổi lĩnh vực công nghệ, Sun* sẽ tổ chức số TechUp #2 với chủ đề "Ứng dụng AI để cải tiến hiệu suất lập trình và tạo ra sản phẩm đột phá" vào ngày 8/6 tới đây.
+                        </div>
+                        <div class="culture-item-detail">
+                            <a>
+                              Xem chi tiết
+                            </a>
+                            <span class="button-icon">
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="culture-btn">
+                    <a class="service-button service-button-right" href="#">
+                        Xem nhiều tin hơn
+                        <div class="button-icon">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
